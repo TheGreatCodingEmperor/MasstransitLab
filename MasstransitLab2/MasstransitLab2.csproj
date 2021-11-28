@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.Analyzers" Version="7.2.4" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.2.4" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.2.4" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.14.7" />
+    <PackageReference Include="NSwag.Core" Version="13.14.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestLab.Components\TestLab.Components.csproj" />
+    <ProjectReference Include="..\TestLab.Contract\TestLab.Contract.csproj" />
+  </ItemGroup>
+
+
+</Project>
